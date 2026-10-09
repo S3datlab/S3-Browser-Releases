@@ -22,6 +22,8 @@ Varsayılan olarak açık olan izleme takibi, desteklenen videolarda son kaydedi
 
 ## Mac’inizden çıkan bilgiler
 
+Adres alanına yazdığınız URL olmayan metin, önerileri almak için seçtiğiniz arama motoruna gönderilir. Arama motoru önerilerini Ayarlar’dan kapatabilirsiniz; özel pencerelerde bu metin hiçbir zaman öneri almak için gönderilmez.
+
 Ziyaret ettiğiniz siteler ve sayfaların yüklediği hizmetler, standart web isteklerini, IP adresinizi, istek zamanını, tarayıcı bilgilerini, çerezleri ve gönderdiğiniz form verilerini alabilir. Adres alanındaki aramalar seçtiğiniz DuckDuckGo, Google veya Bing sağlayıcısına gider; varsayılan DuckDuckGo’dur. Site simgeleri ve sayfa görselleri sitelerin belirttiği adreslerden alınır; bu adresler ayrı görsel veya CDN sunucuları olabilir. Görsel istekleri de bağlantı bilgisi içerir. İsteğe bağlı sayfa takibi ve ön hazırlık etkinleştirildiğinde ilgili sitelere ek istekler yapılabilir.
 
 Otomatik güncelleme kontrolü açıkken otomatik kontrol girişimleri arasında en az 24 saat bulunur. Güncelleme kaynağı GitHub’dır; bağlantılar GitHub’ın dosya sunucularına yönlendirilebilir. Sistem profili veya kullanım bilgisi gönderilmez; standart istek metaverileri, örneğin IP adresi ve istek zamanı, hizmete ulaşır. Elle başlattığınız kontroller de bağlantı kurar. Güncelleme kurulumu ayrıca onayınızı gerektirir.
@@ -71,6 +73,8 @@ Browsing stores history, page addresses and titles, open and closed tabs, window
 Watch tracking is on by default. For supported videos it saves the last recorded playback position, title and episode information, allowing you to continue watching from Home. Cover and other media images specified by pages are downloaded from relevant servers and cached on your Mac. Site icons are held in temporary memory. WebKit manages cookies, site storage and caches. Storage depends on features and sites; no central browsing account is accessible to the developer.
 
 ## Information leaving your Mac
+
+Non-URL text you type in the address field is sent to your selected search engine to fetch suggestions. You can turn off search engine suggestions in Settings; this text is never sent for suggestions in private windows.
 
 Sites you visit and services loaded by pages may receive standard web requests, your IP address, request time, browser information, cookies and submitted form data. Address-field searches go to your chosen DuckDuckGo, Google or Bing provider; DuckDuckGo is the default. Site icons and page images come from addresses specified by sites, including separate image or CDN hosts. Image requests also contain connection information. Optional page monitoring and preparation may make additional requests to sites when enabled.
 
