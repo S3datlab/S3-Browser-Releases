@@ -4,7 +4,7 @@
 
 # S3 Browser Gizlilik Politikası
 
-Sürüm: 1.0 · Yürürlük tarihi: 07.10.2026
+Sürüm: 1.1 · Yürürlük tarihi: 14.10.2026
 
 Geliştirici: Sedat Üstünova (bireysel geliştirici) · İstanbul, Türkiye
 
@@ -29,6 +29,8 @@ Ziyaret ettiğiniz siteler ve sayfaların yüklediği hizmetler, standart web is
 Otomatik güncelleme kontrolü açıkken otomatik kontrol girişimleri arasında en az 24 saat bulunur. Güncelleme kaynağı GitHub’dır; bağlantılar GitHub’ın dosya sunucularına yönlendirilebilir. Sistem profili veya kullanım bilgisi gönderilmez; standart istek metaverileri, örneğin IP adresi ve istek zamanı, hizmete ulaşır. Elle başlattığınız kontroller de bağlantı kurar. Güncelleme kurulumu ayrıca onayınızı gerektirir.
 
 Yerel S3 Browser Engine ve metin gömme modeli cihazda çalışır. Eksik model dosyalarını uygulama içinden indirdiğinizde Hugging Face ve dosya dağıtım altyapısı standart indirme isteklerini alır; bu indirme tarayıcı geçmişinizi veya Brain içeriğinizi göndermez. İsteğe bağlı çevrimiçi araştırma yalnız etkinleştirilip sizin tarafınızdan başlatıldığında kendi anahtarlarınızla çalışır. Brave Search araştırma sorusunu; OpenAI soru ve seçili kaynak alıntılarını alır. Araştırma kaynaklarına içerik alma istekleri yapılır. Sağlayıcıların ücretleri, saklama ve veri kullanımı kendi koşullarına tabidir.
+
+**Claude, Codex ve S3 Agent Bridge.** “Claude’a Sor” veya “Codex’e Sor” özelliğini kullandığınızda yazdığınız mesaj ile eklediğiniz ekran görüntüsü, seçili metin, görsel veya bağlantı; Mac’inizde kurulu Claude Code veya Codex aracılığıyla, kendi hesabınızla Anthropic’e veya OpenAI’a gönderilir. Bu sağlayıcılar verileri kendi koşullarına göre işler ve kullanım ücretleri hesabınıza yansıyabilir. Sohbet geçmişi yalnız bu Mac’te saklanır; Ayarlar’dan silebilirsiniz. S3 Agent Bridge’i Claude Code veya Codex gibi bir ajana bağladığınızda o ajan, verdiğiniz izinler ölçüsünde normal pencerelerdeki sekmeleri okuyabilir, sayfalarda işlem yapabilir ve okuduğu içeriği kendi sağlayıcısına gönderebilir; yaptığı işlemler yerel denetim kaydında tutulur. Bu özellikler yalnız sizin bağlantı veya gönderim işleminizle çalışır. Gizli pencerelerde hiçbir şey gönderilmez ve ajanlar gizli pencereleri göremez.
 
 ## Parolalar, API anahtarları ve uzantılar
 
@@ -56,7 +58,7 @@ Uygulama çocuklara özel olarak tasarlanmamıştır; gerekli hukuki ehliyet vey
 
 # S3 Browser Privacy Policy
 
-Version: 1.0 · Effective date: 07.10.2026
+Version: 1.1 · Effective date: 14.10.2026
 
 Developer: Sedat Üstünova (individual developer) · İstanbul, Türkiye
 
@@ -81,6 +83,8 @@ Sites you visit and services loaded by pages may receive standard web requests, 
 When automatic update checking is enabled, automatic check attempts are at least 24 hours apart. GitHub hosts the update source; connections may redirect to GitHub’s file servers. No system profile or usage information is sent; standard request metadata, such as IP address and request time, reaches the service. Manual checks also make connections. Installation requires separate approval.
 
 S3 Browser Engine and the text embedding model run locally. Downloading missing model files in-app sends standard requests to Hugging Face and its file delivery infrastructure, without sending browsing history or Brain content. Optional online research runs with your own keys only when enabled and initiated by you. Brave Search receives the research question; OpenAI receives the question and selected source excerpts. Research sources receive content-fetch requests. Provider charges, retention and data use follow their own terms.
+
+**Claude, Codex and S3 Agent Bridge.** When you use “Ask Claude” or “Ask Codex”, your message and any attached screenshot, selected text, image or link are sent through the Claude Code or Codex installed on your Mac, using your own account, to Anthropic or OpenAI. These providers process the data under their own terms, and usage may count against your plan. Conversation history is stored only on this Mac; you can delete it in Settings. When you connect S3 Agent Bridge to an agent such as Claude Code or Codex, that agent can, within the permissions you grant, read tabs in normal windows, act on pages and send what it reads to its own provider; its actions are kept in a local audit log. These features run only when you connect them or send something. Nothing is sent from private windows, and agents cannot see private windows.
 
 ## Passwords, API keys and extensions
 
